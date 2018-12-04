@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: 97524cfb46525ef4d9a5f4adc7a8db0f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Rig
+    100002: RigHead
+    100004: RigLCalf
+    100006: RigLCollarbone
+    100008: RigLFoot
+    100010: RigLForearm
+    100012: RigLPalm
+    100014: RigLPlatform
+    100016: RigLThigh
+    100018: RigLUpperarm
+    100020: RigNeck
+    100022: RigPelvis
+    100024: RigRCalf
+    100026: RigRCollarbone
+    100028: RigRFoot
+    100030: RigRForearm
+    100032: RigRibcage
+    100034: RigRPalm
+    100036: RigRPlatform
+    100038: RigRThigh
+    100040: RigRUpperarm
+    100042: RigSpine1
+    100044: RigSpine2
+    100046: //RootNode
+    100048: Robot_01
+    400000: Rig
+    400002: RigHead
+    400004: RigLCalf
+    400006: RigLCollarbone
+    400008: RigLFoot
+    400010: RigLForearm
+    400012: RigLPalm
+    400014: RigLPlatform
+    400016: RigLThigh
+    400018: RigLUpperarm
+    400020: RigNeck
+    400022: RigPelvis
+    400024: RigRCalf
+    400026: RigRCollarbone
+    400028: RigRFoot
+    400030: RigRForearm
+    400032: RigRibcage
+    400034: RigRPalm
+    400036: RigRPlatform
+    400038: RigRThigh
+    400040: RigRUpperarm
+    400042: RigSpine1
+    400044: RigSpine2
+    400046: //RootNode
+    400048: Robot_01
+    2100000: Robot_01A_Green
+    4300000: Robot_01
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Robot_01
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
