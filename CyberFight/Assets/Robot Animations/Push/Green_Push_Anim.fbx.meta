@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: 74e19ac9cc295234d868fae8be7efb11
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Robot_01A_Green:Rig
+    100004: Robot_01A_Green:RigHead
+    100006: Robot_01A_Green:RigLCalf
+    100008: Robot_01A_Green:RigLCollarbone
+    100010: Robot_01A_Green:RigLFoot
+    100012: Robot_01A_Green:RigLForearm
+    100014: Robot_01A_Green:RigLPalm
+    100016: Robot_01A_Green:RigLPlatform
+    100018: Robot_01A_Green:RigLThigh
+    100020: Robot_01A_Green:RigLUpperarm
+    100022: Robot_01A_Green:RigNeck
+    100024: Robot_01A_Green:RigPelvis
+    100026: Robot_01A_Green:RigRCalf
+    100028: Robot_01A_Green:RigRCollarbone
+    100030: Robot_01A_Green:RigRFoot
+    100032: Robot_01A_Green:RigRForearm
+    100034: Robot_01A_Green:RigRibcage
+    100036: Robot_01A_Green:RigRPalm
+    100038: Robot_01A_Green:RigRPlatform
+    100040: Robot_01A_Green:RigRThigh
+    100042: Robot_01A_Green:RigRUpperarm
+    100044: Robot_01A_Green:RigSpine1
+    100046: Robot_01A_Green:RigSpine2
+    100048: Robot_01A_Green:Robot_01
+    400000: //RootNode
+    400002: Robot_01A_Green:Rig
+    400004: Robot_01A_Green:RigHead
+    400006: Robot_01A_Green:RigLCalf
+    400008: Robot_01A_Green:RigLCollarbone
+    400010: Robot_01A_Green:RigLFoot
+    400012: Robot_01A_Green:RigLForearm
+    400014: Robot_01A_Green:RigLPalm
+    400016: Robot_01A_Green:RigLPlatform
+    400018: Robot_01A_Green:RigLThigh
+    400020: Robot_01A_Green:RigLUpperarm
+    400022: Robot_01A_Green:RigNeck
+    400024: Robot_01A_Green:RigPelvis
+    400026: Robot_01A_Green:RigRCalf
+    400028: Robot_01A_Green:RigRCollarbone
+    400030: Robot_01A_Green:RigRFoot
+    400032: Robot_01A_Green:RigRForearm
+    400034: Robot_01A_Green:RigRibcage
+    400036: Robot_01A_Green:RigRPalm
+    400038: Robot_01A_Green:RigRPlatform
+    400040: Robot_01A_Green:RigRThigh
+    400042: Robot_01A_Green:RigRUpperarm
+    400044: Robot_01A_Green:RigSpine1
+    400046: Robot_01A_Green:RigSpine2
+    400048: Robot_01A_Green:Robot_01
+    2100000: Robot_01A_Green_Robot_01A_Green
+    4300000: Robot_01A_Green:Robot_01
+    7400000: Push
+    9500000: //RootNode
+    13700000: Robot_01A_Green:Robot_01
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Push
+      takeName: Take 001
+      firstFrame: 190
+      lastFrame: 223
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
