@@ -1,0 +1,427 @@
+fileFormatVersion: 2
+guid: a67f589dc38028447bfd9a64b4314da8
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: group1
+    100002: Gun_04_FBX:Gun 04
+    100004: //RootNode
+    100006: Male01_C002_FBX:Male01 C002
+    100008: Male01_C002_FBX:Rig
+    100010: Male01_C002_FBX:RigHead
+    100012: Male01_C002_FBX:RigLCalf
+    100014: Male01_C002_FBX:RigLCollarbone
+    100016: Male01_C002_FBX:RigLFoot
+    100018: Male01_C002_FBX:RigLForearm
+    100020: Male01_C002_FBX:RigLPalm
+    100022: Male01_C002_FBX:RigLPlatform
+    100024: Male01_C002_FBX:RigLThigh
+    100026: Male01_C002_FBX:RigLUpperarm
+    100028: Male01_C002_FBX:RigNeck
+    100030: Male01_C002_FBX:RigPelvis
+    100032: Male01_C002_FBX:RigRCalf
+    100034: Male01_C002_FBX:RigRCollarbone
+    100036: Male01_C002_FBX:RigRFoot
+    100038: Male01_C002_FBX:RigRForearm
+    100040: Male01_C002_FBX:RigRibcage
+    100042: Male01_C002_FBX:RigRPalm
+    100044: Male01_C002_FBX:RigRPlatform
+    100046: Male01_C002_FBX:RigRThigh
+    100048: Male01_C002_FBX:RigRUpperarm
+    100050: Male01_C002_FBX:RigSpine1
+    100052: Male01_C002_FBX:RigSpine2
+    400000: group1
+    400002: Gun_04_FBX:Gun 04
+    400004: //RootNode
+    400006: Male01_C002_FBX:Male01 C002
+    400008: Male01_C002_FBX:Rig
+    400010: Male01_C002_FBX:RigHead
+    400012: Male01_C002_FBX:RigLCalf
+    400014: Male01_C002_FBX:RigLCollarbone
+    400016: Male01_C002_FBX:RigLFoot
+    400018: Male01_C002_FBX:RigLForearm
+    400020: Male01_C002_FBX:RigLPalm
+    400022: Male01_C002_FBX:RigLPlatform
+    400024: Male01_C002_FBX:RigLThigh
+    400026: Male01_C002_FBX:RigLUpperarm
+    400028: Male01_C002_FBX:RigNeck
+    400030: Male01_C002_FBX:RigPelvis
+    400032: Male01_C002_FBX:RigRCalf
+    400034: Male01_C002_FBX:RigRCollarbone
+    400036: Male01_C002_FBX:RigRFoot
+    400038: Male01_C002_FBX:RigRForearm
+    400040: Male01_C002_FBX:RigRibcage
+    400042: Male01_C002_FBX:RigRPalm
+    400044: Male01_C002_FBX:RigRPlatform
+    400046: Male01_C002_FBX:RigRThigh
+    400048: Male01_C002_FBX:RigRUpperarm
+    400050: Male01_C002_FBX:RigSpine1
+    400052: Male01_C002_FBX:RigSpine2
+    2100000: Male01_C002_FBX_07 - Default
+    2100002: Gun_04_FBX_01 - Default
+    2300000: Gun_04_FBX:Gun 04
+    3300000: Gun_04_FBX:Gun 04
+    4300000: Male01_C002_FBX:Male01 C002
+    4300002: Gun_04_FBX:Gun 04
+    9500000: //RootNode
+    13700000: Male01_C002_FBX:Male01 C002
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Male01_C002_FBX:RigPelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male01_C002_FBX:RigLThigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male01_C002_FBX:RigRThigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male01_C002_FBX:RigLCalf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male01_C002_FBX:RigRCalf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male01_C002_FBX:RigLFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male01_C002_FBX:RigRFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male01_C002_FBX:RigSpine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male01_C002_FBX:RigSpine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male01_C002_FBX:RigNeck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male01_C002_FBX:RigHead
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male01_C002_FBX:RigLUpperarm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male01_C002_FBX:RigRUpperarm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male01_C002_FBX:RigLForearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male01_C002_FBX:RigRForearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male01_C002_FBX:RigLPalm
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male01_C002_FBX:RigRPalm
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male01_C002_FBX:RigRibcage
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Main_Character(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gun_04_FBX:Gun 04
+      parentName: Main_Character(Clone)
+      position: {x: 0.38832468, y: 0.85810745, z: 0.03172742}
+      rotation: {x: -0.2799954, y: 0.14111412, z: 0.18890001, w: 0.9305945}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male01_C002_FBX:Male01 C002
+      parentName: Main_Character(Clone)
+      position: {x: -0, y: 0, z: 0.000000078009386}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male01_C002_FBX:Rig
+      parentName: Main_Character(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.50000006, y: -0.50000006, z: -0.49999997, w: 0.49999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male01_C002_FBX:RigLPlatform
+      parentName: Main_Character(Clone)
+      position: {x: -0.08497517, y: -0.0000000011494078, z: 0.0015832064}
+      rotation: {x: 0.50000006, y: -0.50000006, z: -0.49999997, w: 0.49999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male01_C002_FBX:RigRPlatform
+      parentName: Main_Character(Clone)
+      position: {x: 0.08497515, y: -0.0000000011494123, z: 0.001583232}
+      rotation: {x: 0.50000006, y: -0.50000006, z: -0.49999997, w: 0.49999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male01_C002_FBX:RigPelvis
+      parentName: Main_Character(Clone)
+      position: {x: 0.000000046678924, y: 0.9125966, z: -0.03369492}
+      rotation: {x: 0.49912703, y: -0.5008716, z: -0.4991269, w: 0.5008715}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: Male01_C002_FBX:RigRThigh
+      parentName: Male01_C002_FBX:RigPelvis
+      position: {x: -0.016248398, y: 0.044303726, z: -0.08301474}
+      rotation: {x: 0.007850602, y: 0.9999423, z: 0.0072492063, w: -0.0011429936}
+      scale: {x: 1.0000007, y: 1.0000002, z: 1.0000006}
+    - name: Male01_C002_FBX:RigRCalf
+      parentName: Male01_C002_FBX:RigRThigh
+      position: {x: -0.465139, y: 0.000000038146972, z: 0.000000019073486}
+      rotation: {x: -0.00038981985, y: -0.00035885387, z: 0.023475315, w: 0.99972427}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000006}
+    - name: Male01_C002_FBX:RigRFoot
+      parentName: Male01_C002_FBX:RigRCalf
+      position: {x: -0.35260287, y: 0, z: -0.000000009536743}
+      rotation: {x: 0.007581114, y: 0.0011940001, z: -0.30489212, w: 0.952356}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1.0000006}
+    - name: Male01_C002_FBX:RigSpine1
+      parentName: Male01_C002_FBX:RigPelvis
+      position: {x: -0.043075483, y: 0.013278174, z: -0.00000001151644}
+      rotation: {x: 0.000000029802319, y: -0.000000029802319, z: 0.0017445383, w: -0.99999845}
+      scale: {x: 0.99999976, y: 0.99999964, z: 0.9999998}
+    - name: Male01_C002_FBX:RigSpine2
+      parentName: Male01_C002_FBX:RigSpine1
+      position: {x: -0.16024505, y: 0.0000000011920929, z: 0}
+      rotation: {x: -0.000000029777002, y: 0.000000029827618, z: -0.0025937238, w: -0.99999666}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Male01_C002_FBX:RigRibcage
+      parentName: Male01_C002_FBX:RigSpine2
+      position: {x: -0.26111677, y: -0.0000000023841857, z: 0}
+      rotation: {x: 0.00000006639087, y: -0.0000007823676, z: 0.43334872, w: -0.90122634}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000002}
+    - name: Male01_C002_FBX:RigLCollarbone
+      parentName: Male01_C002_FBX:RigRibcage
+      position: {x: 0.03811813, y: 0.08693566, z: 0.039101712}
+      rotation: {x: 0.15192118, y: 0.6905903, z: 0.15192266, w: 0.6905972}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male01_C002_FBX:RigLUpperarm
+      parentName: Male01_C002_FBX:RigLCollarbone
+      position: {x: -0.1556035, y: 0, z: 0}
+      rotation: {x: 0.017514326, y: -0.0061915517, z: 0.21478239, w: -0.97648525}
+      scale: {x: 1, y: 0.9999997, z: 0.9999998}
+    - name: Male01_C002_FBX:RigLForearm
+      parentName: Male01_C002_FBX:RigLUpperarm
+      position: {x: -0.30111617, y: 0.0000000047683715, z: 0}
+      rotation: {x: 0.07233271, y: -0.002338243, z: 0.0017650671, w: 0.9973763}
+      scale: {x: 0.99999994, y: 0.9999997, z: 0.9999997}
+    - name: Male01_C002_FBX:RigLPalm
+      parentName: Male01_C002_FBX:RigLForearm
+      position: {x: -0.26258868, y: -0.0000010490418, z: 0.00000045776366}
+      rotation: {x: -0.74420136, y: -0.0032497174, z: 0.009043533, w: 0.6678863}
+      scale: {x: 1.0000007, y: 1.0000012, z: 0.9999998}
+    - name: Male01_C002_FBX:RigRCollarbone
+      parentName: Male01_C002_FBX:RigRibcage
+      position: {x: 0.03811813, y: 0.08693567, z: -0.03910171}
+      rotation: {x: -0.15192118, y: -0.6905903, z: 0.15192266, w: 0.6905972}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male01_C002_FBX:RigRUpperarm
+      parentName: Male01_C002_FBX:RigRCollarbone
+      position: {x: -0.15560351, y: 0.0000000047683715, z: 0}
+      rotation: {x: 0.017514318, y: -0.0061915815, z: -0.21478239, w: 0.97648525}
+      scale: {x: 1.0000008, y: 1.0000001, z: 1.0000001}
+    - name: Male01_C002_FBX:RigRForearm
+      parentName: Male01_C002_FBX:RigRUpperarm
+      position: {x: -0.3011162, y: -0.0000000047683715, z: 0}
+      rotation: {x: -0.07233515, y: 0.0023372264, z: 0.0017688028, w: 0.9973761}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000004}
+    - name: group1
+      parentName: Male01_C002_FBX:RigRForearm
+      position: {x: -0.2625886, y: 0.0000010469439, z: 0.00000031145854}
+      rotation: {x: -0.008822937, y: 0, z: -0, w: 0.9999611}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male01_C002_FBX:RigRPalm
+      parentName: group1
+      position: {x: -0.000000022909386, y: -0.000000016975706, z: -0.000000006282745}
+      rotation: {x: 0.75006485, y: 0.0031688204, z: 0.009070549, w: 0.6612946}
+      scale: {x: 1.0000007, y: 0.9999994, z: 1.000002}
+    - name: Male01_C002_FBX:RigNeck
+      parentName: Male01_C002_FBX:RigRibcage
+      position: {x: -0.0007495117, y: -0.003300166, z: -0.000000006337814}
+      rotation: {x: -1.10134124e-13, y: 5.0613496e-11, z: 0.0000000020954758, w: 1}
+      scale: {x: 0.9999998, y: 1, z: 0.9999999}
+    - name: Male01_C002_FBX:RigHead
+      parentName: Male01_C002_FBX:RigNeck
+      position: {x: -0.16315627, y: 0, z: 4.5474734e-15}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male01_C002_FBX:RigLThigh
+      parentName: Male01_C002_FBX:RigPelvis
+      position: {x: -0.016248092, y: 0.044303723, z: 0.08301474}
+      rotation: {x: 0.00787048, y: 0.9999421, z: -0.0072491765, w: 0.0011436343}
+      scale: {x: 1.0000005, y: 1, z: 1.0000004}
+    - name: Male01_C002_FBX:RigLCalf
+      parentName: Male01_C002_FBX:RigLThigh
+      position: {x: -0.46513897, y: 0.000000038146972, z: 0.000000009536743}
+      rotation: {x: 0.00038978682, y: 0.000346105, z: 0.023442373, w: 0.9997251}
+      scale: {x: 1.0000004, y: 1.0000012, z: 1.0000011}
+    - name: Male01_C002_FBX:RigLFoot
+      parentName: Male01_C002_FBX:RigLCalf
+      position: {x: -0.35260287, y: 0, z: 0}
+      rotation: {x: -0.007575065, y: -0.0011515318, z: -0.3048798, w: 0.95236}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
