@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -112,7 +112,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 8085c95b70cc8a246adf1445fb607bba, type: 2}
 --- !u!1001 &90954991
 Prefab:
   m_ObjectHideFlags: 0
@@ -413,6 +413,18 @@ Prefab:
     - target: {fileID: 4983413463366966, guid: 823db993b74404843989b85bb15a4d8f, type: 2}
       propertyPath: m_RootOrder
       value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316426773542430, guid: 823db993b74404843989b85bb15a4d8f, type: 2}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1811036901074880, guid: 823db993b74404843989b85bb15a4d8f, type: 2}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1009580423546958, guid: 823db993b74404843989b85bb15a4d8f, type: 2}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 823db993b74404843989b85bb15a4d8f, type: 2}
@@ -2940,7 +2952,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4176348443623000, guid: 2a630672c4e100041bf3d8dba6f48d46, type: 2}
       propertyPath: m_RootOrder
-      value: 73
+      value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 1663328077206708, guid: 2a630672c4e100041bf3d8dba6f48d46, type: 2}
       propertyPath: m_Name
@@ -2949,6 +2961,25 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a630672c4e100041bf3d8dba6f48d46, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1193327616 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1334534346558682, guid: 245990c311dc61b46bce883fd54dbe63,
+    type: 2}
+  m_PrefabInternal: {fileID: 256452955}
+--- !u!114 &1193327617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1193327616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab23477cf4803004ab15f62523c4f33f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxEnemyCount: 5
+  timeBetweenSpawns: 1
+  enemy: {fileID: 1735829303662688, guid: ebe12eec5a5b6ac4589d59e3406df7fe, type: 2}
 --- !u!1001 &1205069856
 Prefab:
   m_ObjectHideFlags: 0
@@ -3764,6 +3795,47 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9f67eab1a3462ed44bfa2b962da9c4e0, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1488531656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1488531658}
+  - component: {fileID: 1488531657}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1488531657
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1488531656}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 16.300005, y: 1, z: 1}
+  m_Center: {x: 1.7786169, y: 0, z: 0}
+--- !u!4 &1488531658
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1488531656}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 19.661646, y: 5.150258, z: 36.932705}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 88
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1495138335
 Prefab:
   m_ObjectHideFlags: 0
@@ -4419,7 +4491,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4342039966004142, guid: d81534236e46f274b90ab95469b05443, type: 2}
       propertyPath: m_RootOrder
-      value: 72
+      value: 73
       objectReference: {fileID: 0}
     - target: {fileID: 1563340138385674, guid: d81534236e46f274b90ab95469b05443, type: 2}
       propertyPath: m_Name
