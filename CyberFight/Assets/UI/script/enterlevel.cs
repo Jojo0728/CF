@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class enterlevel : MonoBehaviour {
     public GameObject homemenu;
     public GameObject settingmenu;
+    public GameObject selectlevel;
 	void Start () {
 		
 	}
@@ -18,9 +19,19 @@ public class enterlevel : MonoBehaviour {
 
     public void OnStart()
     {
-        
-        SceneManager.LoadScene("uidemo");
-        
+        homemenu.SetActive(false);
+        selectlevel.SetActive(true);
+    }
+
+    public void OnBack2()
+    {
+        homemenu.SetActive(true);
+        selectlevel.SetActive(false);
+    }
+
+    public void OnLv3()
+    {
+        SceneManager.LoadScene("Third_Level");
     }
 
     public void OnSetting()

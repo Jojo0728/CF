@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/GAMEOVER.unity
     guid: 69f13817d939f2e46819216bf6b32648
+  - enabled: 1
+    path: Assets/Jojo/Third_Level.unity
+    guid: 411f1714e25eac44791d1be6622826a5
   m_configObjects: {}
