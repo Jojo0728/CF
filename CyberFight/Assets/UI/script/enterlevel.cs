@@ -31,7 +31,22 @@ public class enterlevel : MonoBehaviour {
 
     public void OnLv3()
     {
+        SceneManager.LoadScene("Player Test Scene");
+    }
+
+    public void OnLv2()
+    {
         SceneManager.LoadScene("Third_Level");
+    }
+
+    public void OnLv1()
+    {
+        //SceneManager.LoadScene("Player Test Scene");
+    }
+
+    private void OnMouseUpAsButton()
+    {
+        
     }
 
     public void OnSetting()
