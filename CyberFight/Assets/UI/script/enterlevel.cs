@@ -29,6 +29,11 @@ public class enterlevel : MonoBehaviour {
         selectlevel.SetActive(false);
     }
 
+    public void OnLvl01()
+    {
+        SceneManager.LoadScene("Player Test Scene");
+    }
+
     public void OnLv3()
     {
         SceneManager.LoadScene("Third_Level");

@@ -93,10 +93,10 @@ public class NavAgentStateMachine_Best : FSGDN.StateMachine.MachineBehaviour
         if (other.gameObject.GetComponent<NavPoint>())
         {
             ChangeState<IdleState_Best>();
-        }
-        else if (other.gameObject.GetComponent<Portal>())
-        {
-            SceneManager.LoadScene("GAMEOVER");
+            if (other.gameObject.GetComponent<Portal>())
+            {
+                SceneManager.LoadScene("GAMEOVER");
+            }
         }
         else if (other.gameObject.GetComponent<Bullet>())
         {
