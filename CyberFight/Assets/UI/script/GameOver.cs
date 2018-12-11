@@ -18,7 +18,7 @@ public class GameOver : MonoBehaviour {
 
     public void OnAgain()
     {
-        SceneManager.LoadScene("Third_Level");
+        SceneManager.LoadScene("Player Test Scene");
     }
 
     public void OnExit()

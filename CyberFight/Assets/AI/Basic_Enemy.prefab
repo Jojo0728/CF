@@ -297,6 +297,7 @@ GameObject:
   - component: {fileID: 114452198282737240}
   - component: {fileID: 195642294559059082}
   - component: {fileID: 54305821136069278}
+  - component: {fileID: 114627502324619252}
   m_Layer: 0
   m_Name: Basic_Enemy
   m_TagString: Untagged
@@ -860,6 +861,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myNavPoints:
   - {fileID: 0}
+--- !u!114 &114627502324619252
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735829303662688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1e0215058ae9d4b89c0f89150ba674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!136 &136068796721527552
 CapsuleCollider:
   m_ObjectHideFlags: 1
