@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class EnemySpawn : MonoBehaviour {
 
+    public GameObject[] enemies = new GameObject[12];
+
     public GameObject enemy;
 
     public float spawnWait;
@@ -11,25 +13,24 @@ public class EnemySpawn : MonoBehaviour {
     public float spawnLeastWait= 5f;
     public int startWait;
 
-	// Use this for initialization
-	void Start () {
-        StartCoroutine(waitSpawner());
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        spawnWait = Random.Range(spawnLeastWait, spawnMostWait);
-	}
+    public float Timer;
+    public float TimerNextSpawn;
+    public int NextSpawnPoint;
 
-    IEnumerator waitSpawner()
+    void Start()
     {
-        yield return new WaitForSeconds(startWait);
+        TimerNextSpawn = Random.Range(3f, 5f);
 
-        while (true)
+        Timer = Time.time + 5;
+    }
+
+    void Update()
+    {
+        if(Timer < Time.time)
         {
-            Instantiate(enemy, this.gameObject.transform.position, this.gameObject.transform.rotation);
-
-            yield return new WaitForSeconds(startWait);
+            NextSpawnPoint = Random.Range(0, 11);
+            Instantiate(enemy, enemies[NextSpawnPoint].gameObject.transform.position, enemies[NextSpawnPoint].gameObject.transform.rotation);
+            Timer = Time.time + TimerNextSpawn;
         }
     }
 }
