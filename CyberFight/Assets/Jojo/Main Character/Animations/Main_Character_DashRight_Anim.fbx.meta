@@ -66,7 +66,17 @@ ModelImporter:
     7400000: Take 001
     9500000: //RootNode
     13700000: Male01_C002_FBX:Male01 C002
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gun_04_FBX_01 - Default
+    second: {fileID: 2100000, guid: d00a0f17e87323648bc64c8b85350615, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Male01_C002_FBX_07 - Default
+    second: {fileID: 2100000, guid: 73db939ae3827874ead39176062ca3d6, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
