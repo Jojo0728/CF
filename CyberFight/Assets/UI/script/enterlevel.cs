@@ -19,8 +19,9 @@ public class enterlevel : MonoBehaviour {
 
     public void OnStart()
     {
-        homemenu.SetActive(false);
-        selectlevel.SetActive(true);
+       // homemenu.SetActive(false);
+        //selectlevel.SetActive(true);
+        SceneManager.LoadScene("Player Test Scene");
     }
 
     public void OnBack2()
@@ -29,9 +30,24 @@ public class enterlevel : MonoBehaviour {
         selectlevel.SetActive(false);
     }
 
-    public void OnLv3()
+    /*public void OnLv3()
+    {
+        SceneManager.LoadScene("Player Test Scene");
+    }
+
+    public void OnLv2()
     {
         SceneManager.LoadScene("Third_Level");
+    }
+
+    public void OnLv1()
+    {
+        //SceneManager.LoadScene("Player Test Scene");
+    }*/
+
+    private void OnMouseUpAsButton()
+    {
+        
     }
 
     public void OnSetting()
