@@ -11,6 +11,8 @@ public class NavAgentStateMachine_Best : FSGDN.StateMachine.MachineBehaviour
     [SerializeField] NavPoint[] myNavPoints;
     int navIndex = 0;
 
+    public int robotKills = 0;
+
     public void Awake()
     {
         myNavPoints[0] = FindObjectOfType<NavPoint>();
@@ -54,7 +56,7 @@ public class NavAgentStateMachine_Best : FSGDN.StateMachine.MachineBehaviour
 		if (myNavPoints.Length > 0)
 		{
 			GetComponent<NavMeshAgent>().SetDestination(myNavPoints[navIndex].transform.position);
-            GetComponent<NavMeshAgent>().speed = Random.Range(0.5f, 3f);
+            GetComponent<NavMeshAgent>().speed = Random.Range(1f, 3f);
 		}
     }
 
@@ -101,6 +103,7 @@ public class NavAgentStateMachine_Best : FSGDN.StateMachine.MachineBehaviour
         else if (other.gameObject.GetComponent<Bullet>())
         {
             Destroy(gameObject);
+            robotKills++;
         }
     }
     bool paused = false;
