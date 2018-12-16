@@ -9,22 +9,19 @@ public class EnemySpawn : MonoBehaviour {
     public GameObject enemy;
 
     public float spawnWait;
-    public float spawnMostWait= 5f;
-    public float spawnLeastWait= 3f;
+    public float spawnMostWait= 10f;
+    public float spawnLeastWait= 5f;
     public int startWait;
 
     public float Timer;
-    public float NextLevelTimer;
     public float TimerNextSpawn;
     public int NextSpawnPoint;
 
     void Start()
     {
-        TimerNextSpawn = Random.Range(spawnLeastWait, spawnMostWait);
+        TimerNextSpawn = Random.Range(3f, 5f);
 
         Timer = Time.time + 5;
-
-        NextLevelTimer = Time.time + 60;
     }
 
     void Update()
@@ -34,13 +31,6 @@ public class EnemySpawn : MonoBehaviour {
             NextSpawnPoint = Random.Range(0, 11);
             Instantiate(enemy, enemies[NextSpawnPoint].gameObject.transform.position, enemies[NextSpawnPoint].gameObject.transform.rotation);
             Timer = Time.time + TimerNextSpawn;
-        }
-
-        if (NextLevelTimer < Time.time)
-        {
-            spawnLeastWait--;
-            spawnMostWait--;
-            NextLevelTimer = Time.time + 60;
         }
     }
 }
