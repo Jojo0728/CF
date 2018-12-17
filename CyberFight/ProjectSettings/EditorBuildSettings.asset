@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Anthony Santoro/Scenes/Player Test Scene.unity
     guid: d00769b58b748334aa2a21cdeada8998
+  - enabled: 1
+    path: Assets/Second_Level.unity
+    guid: 53ec3a164dda7fb44aefcfb2373f8dcf
   m_configObjects: {}
